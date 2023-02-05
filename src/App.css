@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.main-container{
+  width: 317px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(26, 27, 33, 1);
+}
+
+.UserInfo .UserName{
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.UserInfo .Role{
+  color: rgba(243, 191, 153, 1);
+}
+
+.UserInfo .UserWeb{
+  color: white;
+  font-size: small;
+}
+
+
+
+.Contact-buttons{
+  /* border: 1px solid black; */
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button{
+  width: 8rem;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  font-weight: bold;
+  font-size: medium;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 0%;
+}
+
+.Email{
+  transition-duration: 700ms;
+}
+.Email:hover{
+  color: white;
+  background-color: #282c34;
+  transition-duration: 700ms;
+}
+
+
+
+.Linkedin{
+  color: rgb(255, 255, 255);
+  background: rgba(80, 147, 226, 1);
+  transition-duration: 700ms;
+}
+
+
+.Linkedin:hover{
+  color: rgba(80, 147, 226, 1);
+  background-color: #282c34;
+  transition-duration: 700ms;
+  transition-timing-function: ease;
+}
+
+
+
+
+.UserAbout{
+  text-align: left;
+  color: aliceblue;
+  margin: auto 2rem;
+}
+
+.footer{
+  background-color: rgba(22, 22, 25, 1);
+  color:rgb(221, 220, 220);
+  /* width: 25%; */
+  margin: auto;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  padding: 1rem 1rem;
+  border-radius: 0 0 10px 10px;
+}
+.fa-brands{
+  scale: 2rem;
+}
